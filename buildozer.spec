@@ -19,7 +19,7 @@ version = 1.0
 
 # (list) Application requirements
 # 注意：必須包含 python3 和 kivy，如使用其他套件也可加在此處
-requirements = python3,kivy
+requirements = python3,kivy==2.2.1,cython==0.29.33
 
 # (str) Supported orientation (portrait/landscape/all)
 orientation = portrait
@@ -31,7 +31,7 @@ fullscreen = 0
 android.permissions = INTERNET
 
 # (int) Target Android API
-android.api = 33
+android.api = 31
 
 # (int) Minimum API required
 android.minapi = 21
